@@ -1,0 +1,47 @@
+{
+  "name": "md-manager",
+  "version": "1.0.1",
+  "description": "One place to read and edit every agent rules file on your machine — CLAUDE.md, AGENTS.md, .cursor/rules, and friends. Fully local.",
+  "type": "module",
+  "bin": {
+    "md-manager": "server.js"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "node --check server.js",
+    "test": "node --test test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "marked": "^18.0.5"
+  },
+  "license": "MIT",
+  "files": [
+    "server.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyfox-io/md-manager.git"
+  },
+  "homepage": "https://github.com/Skyfox-io/md-manager#readme",
+  "bugs": {
+    "url": "https://github.com/Skyfox-io/md-manager/issues"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agents",
+    "agents.md",
+    "cursor",
+    "copilot",
+    "markdown",
+    "cli",
+    "local",
+    "editor",
+    "viewer"
+  ],
+  "author": "skyfox-io"
+}
